@@ -1,0 +1,23 @@
+﻿---
+BasedOnStyle: LLVM
+ColumnLimit: '1000'
+IndentWidth: '2'
+TabWidth: '2'
+AlignAfterOpenBracket: Align
+AlignConsecutiveDeclarations: 'true'
+AlignEscapedNewlinesLeft: 'true'
+AlignOperands: 'true'
+AllowShortIfStatementsOnASingleLine: 'true'
+AllowShortBlocksOnASingleLine: 'true'
+AlwaysBreakTemplateDeclarations: 'false'
+NamespaceIndentation: Inner
+PointerAlignment: Left
+SpaceBeforeAssignmentOperators: 'true'
+SpaceBeforeParens: ControlStatements
+SpaceInEmptyParentheses: 'false'
+SpacesInAngles: 'false'
+SpacesInCStyleCastParentheses: 'false'
+SpacesInContainerLiterals: 'false'
+SpacesInParentheses: 'false'
+SpacesInSquareBrackets: 'false'
+UseTab: Never
