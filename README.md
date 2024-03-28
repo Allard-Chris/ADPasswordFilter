@@ -19,19 +19,19 @@ If you find any error or vulnerability, please report them so that we can make t
 
 ## How to install
 
-See [INSTALL.md](.\INSTALL.md).
+See [INSTALL.md](./INSTALL.md).
 
 ## How to uninstall
 
-See [UNINSTALL.md](.\UNINSTALL.md).
+See [UNINSTALL.md](./UNINSTALL.md).
 
 ## How to build
 
-See [BUILD.md](.\BUILD.md).
+See [BUILD.md](./BUILD.md).
 
 ## How it works
 
-See [HOWITWORKS.md](.\HOWITWORKS.md).
+See [HOWITWORKS.md](./HOWITWORKS.md).
 
 ## Microsoft documentations
 - [Functions used for filtering password](https://learn.microsoft.com/da-dk/windows/win32/secmgmt/management-functions#password-filter-functions)
