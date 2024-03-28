@@ -1,7 +1,8 @@
 /**
  * @file ADPasswordFilter.cpp
  * @author Chris ALLARD
- * @brief Implementation of Windows password filter. Microsoft Documentation: https://learn.microsoft.com/en-us/windows/win32/secmgmt/installing-and-registering-a-password-filter-dll
+ * @brief Implementation of Windows password filter.
+ * Microsoft Documentation: https://learn.microsoft.com/en-us/windows/win32/secmgmt/installing-and-registering-a-password-filter-dll
  *
  * @version 1.0
  * @date 2024-03

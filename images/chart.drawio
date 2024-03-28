@@ -1,0 +1,158 @@
+<mxfile host="app.diagrams.net" modified="2024-03-28T10:42:24.384Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="qQjRyeks7vKItBU8XCeh" version="24.2.0" type="device">
+  <diagram name="Page-1" id="cKFdEtyGN1s9lrHea3CI">
+    <mxGraphModel dx="1364" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mF5VYKoPtKAsTva9G4o0-1" target="mF5VYKoPtKAsTva9G4o0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-1" value="EVENT - &lt;span class=&quot;--l --r sentence_highlight&quot;&gt;A password is being changed.&lt;/span&gt; " style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mF5VYKoPtKAsTva9G4o0-3" target="mF5VYKoPtKAsTva9G4o0-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-3" value="ADPasswordFilter.dll is called" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mF5VYKoPtKAsTva9G4o0-5" target="mF5VYKoPtKAsTva9G4o0-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-9" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mF5VYKoPtKAsTva9G4o0-8">
+          <mxGeometry x="-0.35" y="-3" relative="1" as="geometry">
+            <mxPoint x="14" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mF5VYKoPtKAsTva9G4o0-5" target="mF5VYKoPtKAsTva9G4o0-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-12" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mF5VYKoPtKAsTva9G4o0-11">
+          <mxGeometry x="-0.0286" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-5" value="&lt;div&gt;Does the password&amp;nbsp;&lt;/div&gt;&lt;div&gt;is forced directly &lt;br&gt;&lt;/div&gt;&lt;div&gt;by an administrator ?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="30" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-7" value="ADPasswordFilter return True. The password is compliant" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="600" y="50" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mF5VYKoPtKAsTva9G4o0-10" target="mF5VYKoPtKAsTva9G4o0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-10" value="Read registry parameters" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mF5VYKoPtKAsTva9G4o0-13" target="mF5VYKoPtKAsTva9G4o0-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-17" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mF5VYKoPtKAsTva9G4o0-16">
+          <mxGeometry x="-0.0333" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mF5VYKoPtKAsTva9G4o0-13" target="mF5VYKoPtKAsTva9G4o0-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="370" />
+              <mxPoint x="300" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-26" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mF5VYKoPtKAsTva9G4o0-25">
+          <mxGeometry x="-0.2415" y="5" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-13" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Is isWordsDictionaryFilterDisabled&lt;/div&gt;&lt;div&gt;&amp;nbsp;at TRUE ?&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="320" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mF5VYKoPtKAsTva9G4o0-15" target="mF5VYKoPtKAsTva9G4o0-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-15" value="&lt;div&gt;Open the file under&lt;/div&gt;&lt;div&gt;WordsDictionaryFile&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mF5VYKoPtKAsTva9G4o0-18" target="mF5VYKoPtKAsTva9G4o0-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-22" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mF5VYKoPtKAsTva9G4o0-21">
+          <mxGeometry x="0.025" y="-4" relative="1" as="geometry">
+            <mxPoint y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mF5VYKoPtKAsTva9G4o0-18" target="mF5VYKoPtKAsTva9G4o0-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-27" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mF5VYKoPtKAsTva9G4o0-24">
+          <mxGeometry x="-0.5" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-18" value="&lt;div&gt;The password contains&lt;/div&gt;&lt;div&gt;a forbidden word ?&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="600" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-20" value="ADPasswordFilter return FALSE. The password is not compliant" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="600" y="620" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mF5VYKoPtKAsTva9G4o0-23" target="mF5VYKoPtKAsTva9G4o0-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-31" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mF5VYKoPtKAsTva9G4o0-30">
+          <mxGeometry x="-0.0667" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mF5VYKoPtKAsTva9G4o0-23" target="mF5VYKoPtKAsTva9G4o0-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-51" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mF5VYKoPtKAsTva9G4o0-50">
+          <mxGeometry x="-0.1551" y="1" relative="1" as="geometry">
+            <mxPoint y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-23" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Is isPasswordsListFilterDisabled&lt;/div&gt;&lt;div&gt;&amp;nbsp;at TRUE ?&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="760" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mF5VYKoPtKAsTva9G4o0-29" target="mF5VYKoPtKAsTva9G4o0-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-29" value="&lt;div&gt;Open the file under&lt;/div&gt;&lt;div&gt;WordsDictionaryFile&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mF5VYKoPtKAsTva9G4o0-33" target="mF5VYKoPtKAsTva9G4o0-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-44" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mF5VYKoPtKAsTva9G4o0-36">
+          <mxGeometry x="0.125" y="-3" relative="1" as="geometry">
+            <mxPoint x="-5" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mF5VYKoPtKAsTva9G4o0-33" target="mF5VYKoPtKAsTva9G4o0-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-48" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mF5VYKoPtKAsTva9G4o0-47">
+          <mxGeometry x="0.0333" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-33" value="&lt;div&gt;The password is a&lt;/div&gt;&lt;div&gt;prohibited one ?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1040" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-35" value="ADPasswordFilter return FALSE. The password is not compliant" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1060" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-45" value="ADPasswordFilter return True. The password is compliant" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mF5VYKoPtKAsTva9G4o0-46" target="mF5VYKoPtKAsTva9G4o0-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mF5VYKoPtKAsTva9G4o0-46" value="Cleanup the memory" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1200" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
